@@ -1,0 +1,35 @@
+ <ion-content>
+    <div class="list side-menu" ng-controller="utils">
+      <div class="side-menu-header">
+        <center style="padding-top: 50px; font-size: 25px;">
+          <span class="light" style="line-height: 2;font-weight: 100;" ng-controller="homeController">
+            Hello!
+          </span>
+        </center>
+      </div>
+     <div class="item item-divider">
+       Activities
+     </div>
+     
+     <a menu-close class="item" ng-click="go('/adoption')">
+       <i class="ion ion-flash"></i>Adoptions
+     </a>
+
+     <a menu-close class="item" ng-click="go('/volunteer')">
+       <i class="ion ion-ios-people"></i>Volunteer
+     </a>
+     
+     <a menu-close class="item" ng-click="go('/donate')">
+       <i class="ion ion-social-usd"></i>Donate to BCI
+     </a>
+
+      <div class="item item-divider">
+        Miscellaneous
+      </div>
+
+      <a menu-close class="item" ng-click="go('/about')">
+        <i class="ion ion-person-stalker"></i>About Us
+      </a>
+
+    </div>
+  </ion-content>
