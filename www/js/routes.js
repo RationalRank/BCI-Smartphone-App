@@ -40,6 +40,11 @@ angular
                 controller: 'ambulanceController'
             })
 
+            .state('adoption',{
+                url: '/adoption',
+                templateUrl: 'views/adoption.html'
+            })
+
             .state('donate',{
                 url: '/donate',
                 templateUrl: 'views/donate.html'

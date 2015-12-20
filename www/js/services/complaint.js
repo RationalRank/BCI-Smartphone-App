@@ -1,34 +1,34 @@
-'use strict';
+	'use strict';
 
-/**
- * @ngdoc function
- * @name bluecross.service:ComplaintService
- * @description
- * # ComplaintService
- * Service for handling complaints of the bluecross app
- */
+	/**
+	 * @ngdoc function
+	 * @name bluecross.service:ComplaintService
+	 * @description
+	 * # ComplaintService
+	 * Service for handling complaints of the bluecross app
+	 */
 
-angular
+	angular
 
-.module('bluecross.services')
+	.module('bluecross.services')
 
-.factory('ComplaintService', complaintService);
+	.factory('ComplaintService', complaintService);
 
-complaintService.$inject = ['$cordovaLocalStorage','$http'];
+	complaintService.$inject = ['$cordovaLocalStorage','$http'];
 
-function complaintService ($cordovaLocalStorage, $http) {
+	function complaintService ($cordovaLocalStorage, $http) {
 
-	var complaint = {
-		getComplaints : getComplaints
-	};
+		var complaint = {
+			getComplaints : getComplaints
+		};
 
-	return complaint;
+		return complaint;
 
-	function getComplaints() {
-		return $http({
-            method: 'GET',
-            url: config.URL + '/complaint/recent',
-        })
-    }
+		function getComplaints() {
+			return $http({
+	            method: 'GET',
+	            url: config.URL + '/complaint/recent',
+	        })
+	    }
 
-}
+	}

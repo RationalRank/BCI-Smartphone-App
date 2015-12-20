@@ -116,3 +116,9 @@ a.item i {
 label .item {
   border-bottom: 1px solid #CCC;
 }
+
+/* Donation Page */
+
+.donate-bci .card {
+  padding: 0 !important;
+}
