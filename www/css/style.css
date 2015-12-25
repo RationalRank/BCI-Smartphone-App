@@ -87,14 +87,18 @@ a.item i {
   width: 100%;
 }
 
-.camera-card {
-  height: 150px;
+.complaint-input .input-label {
+  padding: 0px 0px !important;
 }
+
+/* .camera-card {
+  height: 100px;
+} */
 
 .camera-card h5 {
   font-family: "Roboto" !important;
   font-weight: 300 !important;
-  margin-top: 50px !important;
+  /* margin-top: 30px !important; */
 }
 
 .camera-card i {

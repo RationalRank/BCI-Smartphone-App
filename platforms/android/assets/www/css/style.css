@@ -87,6 +87,10 @@ a.item i {
   width: 100%;
 }
 
+.complaint-input .input-label {
+  padding: 0px 0px !important;
+}
+
 .camera-card {
   height: 150px;
 }
@@ -115,4 +119,10 @@ a.item i {
 
 label .item {
   border-bottom: 1px solid #CCC;
+}
+
+/* Donation Page */
+
+.donate-bci .card {
+  padding: 0 !important;
 }

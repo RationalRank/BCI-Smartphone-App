@@ -45,6 +45,11 @@ angular
                 templateUrl: 'views/adoption.html'
             })
 
+            .state('volunteer',{
+                url: '/volunteer',
+                templateUrl: 'views/volunteer.html'
+            })
+
             .state('donate',{
                 url: '/donate',
                 templateUrl: 'views/donate.html'
