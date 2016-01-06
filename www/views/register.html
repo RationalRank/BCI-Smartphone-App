@@ -20,19 +20,23 @@
             
 
             <div class="card">
-            	<h6 class="complaint-card-title">Details</h6>
-                <div class="complaint-input list">
+            	<h6 class="complaint-card-title">Your Details</h6>
+                <div class="complaint-input list padding">
                     <label class="item item-input input-positive">
-                        <span class="label">Your Name</span>
+                        <span class="label">Your Name <i class="mandatory">*</i></span>
                         <input type="text" ng-model="formData.registerBy" class="" required>
                     </label>
                     <label class="item item-input input-positive">
-                        <span class="label">Mobile No</span>
+                        <span class="label">Mobile No  <i class="mandatory">*</i></span>
                         <input type="number" ng-model="formData.registerPhone" class="" required>
                     </label>
                     <label class="item item-input input-positive">
                         <span class="label">Email Id</span>
                         <input type="email" ng-model="formData.registerEmail" class="" required>
+                    </label>
+                    <label class="item item-input input-positive">
+                        <span class="label">Location <i class="mandatory">*</i></span>
+                        <input type="text" ng-model="formData.registerLocation" class="" required>
                     </label>
                     <button class="button button-block button-balanced mdl-js-button mdl-js-ripple-effect" ng-click="register()">Register Complaint</button>
                 </div>

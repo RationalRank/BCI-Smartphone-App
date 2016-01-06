@@ -7,9 +7,10 @@
       <button ng-controller="utils" on-tap="go('register')" class="button icon ion-android-camera"></button>
     </ion-nav-buttons>
 
-	<ion-content overflow-scroll="true" animation="slide-left-right" ng-controller="utils">
+	<ion-content class="padding" overflow-scroll="true" animation="slide-left-right" ng-controller="utils">
         
         <h5 class="content-title padding-horizontal">Recent Activities</h5>
+
 		<div class="card complaint-card registered" ng-repeat="c in complaints">
         	<h6 class="complaint-card-title">Registered Successfully - <span>{{c.registerTime}}</span></h6>
         	<div class="row">

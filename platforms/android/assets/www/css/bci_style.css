@@ -1,9 +1,6 @@
 .mandatory {
   color: #c0392b; }
 
-.item-divider {
-  font-family: "Montserrat" !important; }
-
 * {
   font-family: "Roboto"; }
 
@@ -35,11 +32,6 @@
     text-align: center; }
 
 /* Complaint Page */
-.complaint .card {
-  padding: 15px !important; }
-  .complaint .card .complaint-card-title {
-    font-family: "Montserrat"; }
-
 .complaint .complaint-input span.label {
   font-size: 12px !important; }
 
